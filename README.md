@@ -71,7 +71,7 @@ Para usar o gerador de formulários em seu próprio projeto, siga estes passos:
     ```
 3.  Instale os componentes Shadcn UI que o `DynamicForm` utiliza:
     ```bash
-    npx shadcn-ui@latest add form button input select slider switch checkbox textarea label
+    npx shadcn@latest add form button input select slider switch checkbox textarea label
     ```
 
 ### Passo 2: Defina o Esquema de Validação com Zod
