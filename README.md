@@ -6,9 +6,6 @@ Este projeto oferece um componente de formulário dinâmico e reutilizável para
 
 O objetivo é simples: pare de reescrever formulários. Defina seus campos em um array de configuração e deixe o componente fazer o resto.
 
-![Exemplo de Formulário Gerado](https://i.imgur.com/e2N0J8c.png)
-*(Substitua a URL acima pelo link de um screenshot real do seu projeto)*
-
 ## ✨ Features
 
 -   **Totalmente Dinâmico**: Renderiza formulários complexos a partir de um simples array de configuração JavaScript.
