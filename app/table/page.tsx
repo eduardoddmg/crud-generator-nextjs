@@ -2,7 +2,7 @@
 'use client';
 
 import { ColumnDef } from '@tanstack/react-table';
-import { DataTable } from '@/components/data-table';
+import { DataTable } from '@/components/ui/data-table'; // Assuming data-table is now in ui folder
 import { useState, useEffect } from 'react';
 
 // Definição do tipo para seus dados
@@ -37,7 +37,8 @@ export default function HomePage() {
     // Simula uma chamada de API
     const fetchData = async () => {
       setLoading(true);
-      await new Promise((resolve) => setTimeout(resolve, 2000)); // Simula delay da API
+      // Simula delay da API de 2 segundos
+      await new Promise((resolve) => setTimeout(resolve, 2000));
 
       const fetchedData: User[] = [
         {
